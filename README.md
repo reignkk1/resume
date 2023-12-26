@@ -169,3 +169,4 @@ npm run export
   - 데이터나 `_global` payload 로 핸들링하는 방법을 고민 중입니다.
 # resume
 # resume
+# resume
