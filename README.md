@@ -168,3 +168,4 @@ npm run export
   - 현재는 `pages/index.tsx` 에서 직접 렌더링 순서를 변경하는 수 밖에 없습니다.
   - 데이터나 `_global` payload 로 핸들링하는 방법을 고민 중입니다.
 # resume
+# resume
