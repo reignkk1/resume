@@ -14,13 +14,13 @@ module.exports = withImages({
           console.log(`> Apply \'${pathname}\' to assetPrefix(subPath)`);
           return pathname;
         }
-        return '';
+        return '.';
       } catch {
         console.log('> Can not parse homepage URL not apply assetPrefix(subPath)');
-        return '';
+        return '.';
       }
     }
-    return '';
+    return '.';
   })(),
 });
 // withCSS({
