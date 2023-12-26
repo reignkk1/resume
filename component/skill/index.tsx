@@ -27,7 +27,6 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
           <Col>
             <h2>
               <span style={Style.blue}>SKILL</span>
-              {createTooltip(payload.tooltip)}
             </h2>
           </Col>
         </Row>
@@ -39,7 +38,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   );
 }
 
-function createTooltip(content?: string) {
+export function createTooltip(content?: string) {
   if (!content) {
     return '';
   }

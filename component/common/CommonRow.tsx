@@ -31,6 +31,7 @@ export function CommonRows({
             <CommonDescription
               descriptions={right.descriptions}
               option={{ padding: isNeedDescriptionPadding }}
+              skills={right.skills}
             />
           ) : (
             ''

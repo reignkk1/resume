@@ -5,15 +5,16 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: 'Featured on SuperTuxKart',
-      subTitle: "Steve & Oliver Baker's",
-      startedAt: '2016-07',
+      title: '웹 개발 프로젝트 참여',
+      subTitle: '코딩 과외 플랫폼 개발 / 백엔드 개발자와 협업',
+      startedAt: '2023-05',
+      endedAt: '2023-07',
     },
     {
-      title: "Biting Linus Torvalds' Foot",
-      subTitle: 'Australia National Zoo & Aquarium',
-      startedAt: '1993-07',
-      endedAt: '1993-08',
+      title: '사회복무요원 근무',
+      subTitle: '시청 행정업무 및 공무원 대출관련 보조 업무',
+      startedAt: '2019-05',
+      endedAt: '2021-02',
     },
   ],
 };

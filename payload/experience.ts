@@ -1,18 +1,19 @@
 import { IExperience } from '../component/experience/IExperience';
 
 const experience: IExperience.Payload = {
-  disable: false,
+  disable: true,
   disableTotalPeriod: false,
   list: [
     {
-      title: 'Linux Foundation',
-      position: 'System Engineer',
+      title: 'Recruitment-App',
+      position: '',
       startedAt: '1996-02',
       descriptions: [
-        'Steering Kernel patching and updates for various distributions',
-        'Automating deployment and integration processes for Linux servers',
-        'Spearheading initiatives to enhance Linux kernel security',
+        '여러 채용 사이트를 번거롭게 이동하며 채용 공고를 봐야하는 문제점을 개선',
+        'Cheerio 라이브러리 활용한 웹 크롤링 구현',
+        '웹 브라우저 저장소 localStorage를 활용한 사용자가 본 게시물은 블러처리 구현',
         'Collaborating with global developers to coordinate code contributions',
+        'https://github.com/reignkk1/recruitment-app',
       ],
       skillKeywords: ['C', 'Linux', 'Kernel', 'Security', ' Automation'],
     },

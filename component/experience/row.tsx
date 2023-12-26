@@ -31,7 +31,7 @@ export default function ExperienceRow({
   );
 }
 
-function createSkillKeywords(skillKeywords?: string[]) {
+export function createSkillKeywords(skillKeywords?: string[]) {
   if (!skillKeywords) {
     return '';
   }

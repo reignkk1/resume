@@ -38,6 +38,8 @@ export declare namespace IProject {
      */
     endedAt?: string;
 
+    skills?: string[];
+
     /**
      * ### 프로젝트 설명
      */

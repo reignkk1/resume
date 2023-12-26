@@ -1,12 +1,18 @@
 import { PropsWithChildren, CSSProperties } from 'react';
 import { IRow } from './IRow';
 import { HrefTargetBlank } from '.';
+import { createSkillKeywords } from '../experience/row';
 
 /** Description Recusion Generator */
 export function CommonDescription({
   descriptions,
   option,
-}: PropsWithChildren<{ descriptions: IRow.Description[]; option?: { padding?: boolean } }>) {
+  skills,
+}: PropsWithChildren<{
+  descriptions: IRow.Description[];
+  option?: { padding?: boolean };
+  skills?: string[];
+}>) {
   return (
     <>
       {descriptions ? (
@@ -26,6 +32,7 @@ export function CommonDescription({
               </>
             );
           })}
+          {createSkillKeywords(skills)}
         </ul>
       ) : (
         ''
