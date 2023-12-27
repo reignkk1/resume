@@ -14,6 +14,9 @@ function Component() {
           <EmptyRowCol>
             <small>Thank you.</small>
           </EmptyRowCol>
+          <a href="https://reignkk1.github.io/resume/" target="_blank" rel="noreferrer">
+            PC버전
+          </a>
 
           <br />
         </div>
