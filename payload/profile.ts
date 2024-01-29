@@ -1,7 +1,6 @@
 import { faBlog, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/1.jpg';
 
@@ -34,10 +33,6 @@ const profile: IProfile.Payload = {
       icon: faBlog,
     },
   ],
-  notice: {
-    title: '문자나 이메일로 연락 부탁드립니다.',
-    icon: faBell,
-  },
 };
 
 export default profile;

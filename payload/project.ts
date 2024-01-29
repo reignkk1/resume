@@ -4,6 +4,22 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'Guess Words',
+      startedAt: '2023-12',
+      endedAt: '2024-01',
+      where: '6번의 시도로 영단어를 맞추는 게임',
+      descriptions: [
+        {
+          content: '바닐라 자바스크립트의 DOM API와 내장함수를 활용하여 개발',
+        },
+        {
+          content: 'https://github.com/reignkk1/wordle',
+          href: 'https://github.com/reignkk1/wordle',
+        },
+      ],
+      skills: ['JavaScript'],
+    },
+    {
       title: 'Recruitment-App',
       startedAt: '2023-10',
       where: '개발자 채용공고 모아서 보는 웹 사이트 개발',
@@ -32,53 +48,8 @@ const project: IProject.Payload = {
       skills: ['Next.js', 'TypeScript', 'Emotion', 'Cheerio'],
     },
     {
-      title: '코딩 바다',
-      startedAt: '2023-05',
-      endedAt: '2023-07',
-      where: ' 코딩 과외 플랫폼 프론트엔드 개발 ( FE2, BE2 )',
-      descriptions: [
-        {
-          content: '게시물 CRUD, 쪽지 보내기, 검색, 필터링 기능 개발 담당',
-        },
-        {
-          content: '반복되는 UI 공통 컴포넌트 제작으로 재사용성 및 유지보수성 높임',
-          descriptions: [
-            { content: '이벤트 버블링을 막아(stopPropagation) 모달창 컴포넌트 구현' },
-            { content: 'Controlled Component 활용한 실시간 사용자의 입력을 판단하고 검증함' },
-          ],
-        },
-        {
-          content: '무한 스크롤 구현하여 UX 개선 및 모바일 환경 개선',
-          descriptions: [
-            {
-              content:
-                '페이지 번호를 클릭해서 이동하는 것은 모바일 환경에서는 불편한 사용자 경험을 주는 문제 발생',
-            },
-            {
-              content:
-                'DOM API를 활용한 사용자의 스크롤 위치를 추적하여 스크롤이 맨 밑으로 왔다면 데이터를 Fetch',
-            },
-          ],
-        },
-        {
-          content: ' Redux를 활용한 Flux 패턴 도입하여 데이터의 흐름을 단방향으로 개선',
-          descriptions: [
-            {
-              content:
-                '컴포넌트 간 데이터 양방향 흐름으로 데이터를 파악하기 어려워져 상태 관리의 중요성을 깨닫게 됨',
-            },
-          ],
-        },
-        {
-          content: 'https://github.com/reignkk1/coding-tutoring-client',
-          href: 'https://github.com/reignkk1/coding-tutoring-client',
-        },
-      ],
-      skills: ['React.js', 'TypeScript', 'Styled-Components', 'Redux-Toolkit', 'Redux-Thunk'],
-    },
-    {
       title: 'Developer Community',
-      startedAt: '2023-03',
+      startedAt: '2023-06',
       where: '개발자 지식공유 커뮤니티',
       descriptions: [
         {
@@ -102,6 +73,15 @@ const project: IProject.Payload = {
             },
             {
               content: '사용자가 회원정보를 변경 하였다면 API를 호출하여 최신 데이터를 가져옴',
+            },
+          ],
+        },
+        {
+          content: 'Recoil를 활용한 Flux 패턴 도입하여 데이터의 흐름을 단방향으로 개선',
+          descriptions: [
+            {
+              content:
+                '컴포넌트 간 데이터 양방향 흐름으로 데이터를 파악하기 어려워져 상태 관리의 중요성을 깨닫게 됨',
             },
           ],
         },

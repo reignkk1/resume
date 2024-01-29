@@ -1,70 +1,27 @@
 import { IOpenSource } from '../component/openSource/IOpenSource';
 
 const openSource: IOpenSource.Payload = {
-  disable: true,
+  disable: false,
   list: [
     {
-      title: 'Linux Kernal',
+      title: 'react-url-paginate',
       descriptions: [
         {
-          content: 'Regular contributor to kernel patches.',
+          content: '누구나 간편하게 만들 수 있는 페이지 네이션',
         },
         {
-          content: 'Active member of kernel security audit team.',
-        },
-      ],
-    },
-    {
-      title: 'GNOME',
-      descriptions: [
-        {
-          content: 'Contributor to UX improvements for system utilities.',
+          content: 'React.js & TypeScript 기반 컴포넌트',
         },
         {
-          content: 'https://github.com/GNOME',
-          href: 'https://github.com/GNOME',
-        },
-      ],
-    },
-    {
-      title: 'node',
-      descriptions: [
-        { content: 'Node.js JavaScript runtime' },
-        { content: 'Contributor' },
-        {
-          content: 'https://github.com/nodejs/node',
-          href: 'https://github.com/nodejs/node',
+          content: 'https://github.com/reignkk1/react-url-paginate',
+          href: 'https://github.com/reignkk1/react-url-paginate',
         },
         {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nodejs/node.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'NestJS',
-      descriptions: [
-        {
-          content: 'A progressive Node.js framework',
+          content: 'https://www.npmjs.com/package/react-url-paginate',
+          href: 'https://www.npmjs.com/package/react-url-paginate',
         },
         {
-          content:
-            'for building efficient, scalable, and enterprise-grade server-side applications',
-        },
-        {
-          content: 'Contributor',
-        },
-        {
-          content: 'https://github.com/nestjs/nest',
-          href: 'https://github.com/nestjs/nest',
-        },
-        {
-          content: 'Monthly Download: ',
-          postImage: 'https://img.shields.io/npm/dm/@nestjs/core.svg',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nestjs/nest.svg?style=popout',
+          content: 'Weekly Downloads: 372',
         },
       ],
     },
