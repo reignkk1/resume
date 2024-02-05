@@ -20,9 +20,6 @@ const openSource: IOpenSource.Payload = {
           content: 'https://www.npmjs.com/package/react-url-paginate',
           href: 'https://www.npmjs.com/package/react-url-paginate',
         },
-        {
-          content: 'Weekly Downloads: 115',
-        },
       ],
     },
   ],
