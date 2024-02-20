@@ -7,7 +7,7 @@ const openSource: IOpenSource.Payload = {
       title: 'react-url-paginate',
       descriptions: [
         {
-          content: '누구나 간편하게 만들 수 있는 페이지 네이션',
+          content: '프론트 개발에 자주 사용되는 페이지 네이션 기능을 라이브러리로 구현',
         },
         {
           content: 'React.js & TypeScript 기반 컴포넌트',

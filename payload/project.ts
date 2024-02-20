@@ -10,7 +10,10 @@ const project: IProject.Payload = {
       where: '6번의 시도로 영단어를 맞추는 게임',
       descriptions: [
         {
-          content: '바닐라 자바스크립트의 DOM API와 내장함수를 활용하여 개발',
+          content: '라이브러리나 프레임워크 도움없이 순수 자바스크립트로 개발',
+        },
+        {
+          content: '자바스크립트의 for 반복문과 if 조건문을 활용하여 개발',
         },
         {
           content: 'https://github.com/reignkk1/wordle',
@@ -25,14 +28,17 @@ const project: IProject.Payload = {
       where: '개발자 채용공고 모아서 보는 웹 사이트 개발',
       descriptions: [
         {
-          content: 'Next.js의 렌더링 방식을 적절히 섞어서 개발',
-          descriptions: [
-            { content: '첫 페이지는 SSG 방식으로 SEO 및 로딩속도 최적화' },
-            { content: '첫 페이지 이후의 사용자 인터렉션은 CSR 방식으로 UX 증가' },
-          ],
+          content: ' 여러 채용 사이트를 번거롭게 이동하며 채용 공고를 봐야하는 문제점을 개선',
         },
         {
-          content: ' 여러 채용 사이트를 번거롭게 이동하며 채용 공고를 봐야하는 문제점을 개선',
+          content: 'Next.js의 렌더링 방식을 적절히 섞어서 개발',
+          descriptions: [
+            {
+              content:
+                'SSG 방식으로 서버에서 미리 만들어진 HTML을 받아와 SEO 및 첫 페이지 로딩속도 최적화',
+            },
+            { content: '첫 페이지 이후의 사용자 인터렉션은 CSR 방식으로 UX 증가' },
+          ],
         },
         {
           content: ' Cheerio 라이브러리 활용한 웹 크롤링 구현',
