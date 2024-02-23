@@ -13,11 +13,11 @@ const openSource: IOpenSource.Payload = {
           content: 'React.js & TypeScript 기반 컴포넌트',
         },
         {
-          content: 'https://github.com/reignkk1/react-url-paginate',
+          content: 'Github',
           href: 'https://github.com/reignkk1/react-url-paginate',
         },
         {
-          content: 'https://www.npmjs.com/package/react-url-paginate',
+          content: 'NPM',
           href: 'https://www.npmjs.com/package/react-url-paginate',
         },
       ],

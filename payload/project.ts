@@ -16,8 +16,12 @@ const project: IProject.Payload = {
           content: '자바스크립트의 for 반복문과 if 조건문을 활용하여 개발',
         },
         {
-          content: 'https://github.com/reignkk1/wordle',
+          content: 'Github',
           href: 'https://github.com/reignkk1/wordle',
+        },
+        {
+          content: '배포링크',
+          href: 'https://reignkk1.github.io/wordle/',
         },
       ],
       skills: ['JavaScript'],
@@ -47,8 +51,12 @@ const project: IProject.Payload = {
           content: '웹 브라우저 저장소 localStorage를 활용한 사용자가 본 게시물은 블러처리 구현',
         },
         {
-          content: 'https://github.com/reignkk1/recruitment-app',
+          content: 'Github',
           href: 'https://github.com/reignkk1/recruitment-app',
+        },
+        {
+          content: '배포링크',
+          href: 'https://nextjs-app-reignkk1.vercel.app/',
         },
       ],
       skills: ['Next.js', 'TypeScript', 'Emotion', 'Cheerio'],
@@ -98,8 +106,12 @@ const project: IProject.Payload = {
           content: '34개의 테스트 코드 작성으로 시스템 안정화',
         },
         {
-          content: 'https://github.com/reignkk1/developer-community',
+          content: 'Github',
           href: 'https://github.com/reignkk1/developer-community',
+        },
+        {
+          content: '배포링크',
+          href: 'https://web-board-web-6g2llexw0nts.sel3.cloudtype.app/',
         },
       ],
       skills: [
