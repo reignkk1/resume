@@ -13,12 +13,8 @@ const openSource: IOpenSource.Payload = {
           content: 'React.js & TypeScript 기반 컴포넌트',
         },
         {
-          content: 'Github',
+          content: 'https://github.com/reignkk1/react-url-paginate',
           href: 'https://github.com/reignkk1/react-url-paginate',
-        },
-        {
-          content: 'NPM',
-          href: 'https://www.npmjs.com/package/react-url-paginate',
         },
       ],
     },
@@ -35,12 +31,12 @@ const openSource: IOpenSource.Payload = {
           content: '데이터를 가져올 때 항상 String 형태로 바뀌는 문제점을 개선',
         },
         {
-          content: 'Github',
-          href: 'https://github.com/reignkk1/parser-localstorage',
+          content: 'parser-localStorage 구현기',
+          href: 'https://reignkk1.github.io/posts/parser-localstorage',
         },
         {
-          content: 'NPM',
-          href: 'https://www.npmjs.com/package/parser-localstorage',
+          content: 'https://github.com/reignkk1/parser-localstorage',
+          href: 'https://github.com/reignkk1/parser-localstorage',
         },
       ],
     },
