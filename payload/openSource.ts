@@ -19,7 +19,7 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
-      title: 'parser-localStorage',
+      title: 'parser-storages',
       descriptions: [
         {
           content: '기존 브라우저 저장소인 LocalStorage의 단점을 보안하여 만든 라이브러리',
@@ -31,12 +31,12 @@ const openSource: IOpenSource.Payload = {
           content: '데이터를 가져올 때 항상 String 형태로 바뀌는 문제점을 개선',
         },
         {
-          content: 'parser-localStorage 구현기',
-          href: 'https://reignkk1.github.io/posts/parser-localstorage',
+          content: 'parser-storages 구현기',
+          href: 'https://reignkk1.github.io/posts/parser-storages',
         },
         {
-          content: 'https://github.com/reignkk1/parser-localstorage',
-          href: 'https://github.com/reignkk1/parser-localstorage',
+          content: 'https://github.com/reignkk1/parser-storages',
+          href: 'https://github.com/reignkk1/parser-storages',
         },
       ],
     },
