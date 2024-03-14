@@ -56,7 +56,7 @@ const project: IProject.Payload = {
         },
         {
           content: '배포링크',
-          href: 'https://nextjs-app-reignkk1.vercel.app/',
+          href: 'https://recruitment-dev.vercel.app/',
         },
       ],
       skills: ['Next.js', 'TypeScript', 'Emotion', 'Cheerio'],
