@@ -4,29 +4,6 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Guess Words',
-      startedAt: '2023-12',
-      endedAt: '2024-01',
-      where: '6번의 시도로 영단어를 맞추는 게임',
-      descriptions: [
-        {
-          content: '라이브러리나 프레임워크 도움없이 순수 자바스크립트로 개발',
-        },
-        {
-          content: '자바스크립트의 for 반복문과 if 조건문을 활용하여 개발',
-        },
-        {
-          content: 'https://github.com/reignkk1/wordle',
-          href: 'https://github.com/reignkk1/wordle',
-        },
-        {
-          content: '배포링크',
-          href: 'https://reignkk1.github.io/wordle/',
-        },
-      ],
-      skills: ['JavaScript'],
-    },
-    {
       title: 'Recruitment-App',
       startedAt: '2023-10',
       where: '개발자 채용공고 모아서 보는 웹 사이트 개발',

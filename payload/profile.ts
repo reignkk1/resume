@@ -1,4 +1,4 @@
-import { faBlog, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { IProfile } from '../component/profile/IProfile';
@@ -27,10 +27,6 @@ const profile: IProfile.Payload = {
     {
       link: 'https://github.com/reignkk1',
       icon: faGithub,
-    },
-    {
-      link: 'https://reignkk1.github.io/',
-      icon: faBlog,
     },
   ],
 };

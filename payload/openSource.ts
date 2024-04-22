@@ -32,7 +32,7 @@ const openSource: IOpenSource.Payload = {
         },
         {
           content: 'parser-storages 구현기',
-          href: 'https://reignkk1.github.io/posts/parser-storages',
+          href: 'https://reignkk1.github.io/blog/parser-storages/',
         },
         {
           content: 'https://github.com/reignkk1/parser-storages',
