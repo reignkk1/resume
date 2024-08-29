@@ -170,4 +170,5 @@ npm run export
 - index.html 에서 이미지, CSS가 404 발생하는 경우
   - https://github.com/uyu423/resume-nextjs/issues/37 참고
 #   r e s u m e  
+ #   r e s u m e  
  
