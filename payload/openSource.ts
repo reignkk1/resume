@@ -4,67 +4,24 @@ const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernal',
+      title: 'parser-storages',
       descriptions: [
         {
-          content: 'Regular contributor to kernel patches.',
+          content: '기존 브라우저 저장소인 LocalStorage의 단점을 보안하여 만든 라이브러리',
         },
         {
-          content: 'Active member of kernel security audit team.',
-        },
-      ],
-    },
-    {
-      title: 'GNOME',
-      descriptions: [
-        {
-          content: 'Contributor to UX improvements for system utilities.',
+          content: '객체 타입의 데이터를 저장할 때 JSON 형태로 자동 파싱하여 저장',
         },
         {
-          content: 'https://github.com/GNOME',
-          href: 'https://github.com/GNOME',
-        },
-      ],
-    },
-    {
-      title: 'node',
-      descriptions: [
-        { content: 'Node.js JavaScript runtime' },
-        { content: 'Contributor' },
-        {
-          content: 'https://github.com/nodejs/node',
-          href: 'https://github.com/nodejs/node',
+          content: 'LocalStorage에서 데이터를 가져올 때 항상 String 형태로 바뀌는 문제점을 개선',
         },
         {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nodejs/node.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'NestJS',
-      descriptions: [
-        {
-          content: 'A progressive Node.js framework',
+          content: 'parser-storages 구현기',
+          href: 'https://reignkk1.github.io/blog/parser-storages/',
         },
         {
-          content:
-            'for building efficient, scalable, and enterprise-grade server-side applications',
-        },
-        {
-          content: 'Contributor',
-        },
-        {
-          content: 'https://github.com/nestjs/nest',
-          href: 'https://github.com/nestjs/nest',
-        },
-        {
-          content: 'Monthly Download: ',
-          postImage: 'https://img.shields.io/npm/dm/@nestjs/core.svg',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nestjs/nest.svg?style=popout',
+          content: 'https://github.com/reignkk1/parser-storages',
+          href: 'https://github.com/reignkk1/parser-storages',
         },
       ],
     },

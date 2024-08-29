@@ -62,12 +62,12 @@ function createProfileContactMap(contacts: Payload['contact']) {
 }
 
 function createNoticeArea(notice: Payload['notice']) {
-  return (
+  return notice ? (
     <EmptyRowCol>
       <Alert color="secondary" role="alert" className="mt-3">
-        {notice.icon ? <FontAwesomeIcon className="mr-2" icon={notice.icon} /> : ''}
-        {notice.title}
+        {notice?.icon ? <FontAwesomeIcon className="mr-2" icon={notice.icon} /> : ''}
+        {notice?.title}
       </Alert>
     </EmptyRowCol>
-  );
+  ) : null;
 }

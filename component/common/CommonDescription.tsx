@@ -2,6 +2,7 @@ import { CSSProperties, PropsWithChildren } from 'react';
 
 import { HrefTargetBlank } from '.';
 import { IRow } from './IRow';
+import { createSkillKeywords } from '../experience/row';
 
 /** Description Recusion Generator */
 export function CommonDescription({
@@ -61,9 +62,13 @@ function DescriptionRecursion({
 }
 
 function Description({ description }: PropsWithChildren<{ description: IRow.Description }>) {
-  const { content, href, postImage, postHref, weight } = description;
+  const { content, href, postImage, postHref, weight, skills } = description;
 
   const component = (() => {
+    if (skills) {
+      return createSkillKeywords(skills);
+    }
+
     if (href && postImage) {
       return (
         <li style={getFontWeight(weight)}>

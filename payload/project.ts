@@ -4,38 +4,98 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernel Optimization Project',
-      startedAt: '2020-06',
-      where: 'Linux Foundation',
+      title: 'Comfort Radio',
+      startedAt: '2024-07',
+      where: '뮤직 플레이어 개발',
       descriptions: [
         {
-          content:
-            'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
+          content: '뮤직 플레이어 재생/일시정지, 음소거, 음량조절 모듈 개발',
         },
         {
-          content:
-            'Achieved significant improvements in system performance and resource management.',
-          weight: 'MEDIUM',
+          content: '댓글 읽기/쓰기/삭제 개발',
+        },
+        {
+          content: '바닐라 자바스크립트로 CSR(Client-Side-Rendering) 구현',
+        },
+        {
+          content: 'customElements API 활용한 HTML 컴포넌트 개발',
+        },
+        {
+          content: 'Node.js 환경에서 간단한 웹 서버 API 개발',
+        },
+
+        {
+          content: 'Webpack을 활용한 모듈 번들링',
           descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
+            { content: 'Style-loader와 CSS-loader를 활용하여 CSS 파일들을 번들링함' },
+            {
+              content:
+                'Babel 플러그인을 사용하여 ES6 최신 문법을 ES5로 변환하여 모든 브라우저 호환성을 높임',
+            },
+            {
+              content:
+                '여러개의 JS파일들을 하나의 JS파일로 번들링하여 서버에 파일 요청 횟수 최소화',
+            },
+          ],
+        },
+        {
+          content: 'https://github.com/reignkk1/comfort',
+          href: 'https://github.com/reignkk1/comfort',
+        },
+        {
+          content: '배포링크',
+          href: 'https://reignkk1.github.io/comfort/',
+        },
+        {
+          skills: [
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Node.js',
+            'Express.js',
+            'Webpack',
+            'Babel',
+            'Style-loader',
+            'CSS-loader',
+            'MySQL',
           ],
         },
       ],
     },
     {
-      title: 'Global Linux Bootcamp',
-      startedAt: '2017-05',
-      endedAt: '2019-12',
-      where: 'Open Source Community',
+      title: 'Recruitment-App',
+      startedAt: '2023-10',
+      where: '개발자 채용공고 모아서 보는 웹 사이트 개발',
       descriptions: [
         {
-          content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+          content: ' 여러 채용 사이트를 번거롭게 이동하며 채용 공고를 봐야하는 문제점을 개선',
         },
         {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+          content: 'Next.js의 렌더링 방식을 적절히 섞어서 개발',
+          descriptions: [
+            {
+              content:
+                'SSG 방식으로 서버에서 미리 만들어진 HTML을 받아와 SEO 및 첫 페이지 로딩속도 최적화',
+            },
+            { content: '첫 페이지 이후의 사용자 인터렉션은 CSR 방식으로 UX 증가' },
+          ],
+        },
+        {
+          content: ' Cheerio 라이브러리 활용한 웹 크롤링 구현',
+        },
+        {
+          content: '웹 브라우저 저장소 localStorage를 활용한 사용자가 본 게시물은 블러처리 구현',
+        },
+        {
+          content: 'https://github.com/reignkk1/recruitment-app',
+          href: 'https://github.com/reignkk1/recruitment-app',
+        },
+        {
+          content: '배포링크',
+          href: 'https://recruitment-dev.vercel.app/',
+        },
+        {
+          skills: ['Next.js', 'TypeScript', 'Emotion', 'Cheerio'],
         },
       ],
     },

@@ -26,7 +26,7 @@ export declare namespace IRow {
    */
   export interface Description {
     /** ### 설명 본문 */
-    content: string;
+    content?: string;
 
     /**
      * ### 폰트 두께 설정이 필요할 경우
@@ -64,6 +64,7 @@ export declare namespace IRow {
      * @description 여러 계층을 가지는 `<ul>` 태그 구현을 위해 Recursion 형태로 구현됨
      */
     descriptions?: Description[];
+    skills?: string[];
   }
 
   export type FontWeightType =
