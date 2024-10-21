@@ -39,6 +39,10 @@ const project: IProject.Payload = {
           href: 'https://reignkk1.github.io/blog/state-store/',
         },
         {
+          content: '파이썬을 활용한 유튜브 음원 추출 프로그램',
+          href: 'https://github.com/reignkk1/mp3Tube',
+        },
+        {
           content: '깃허브',
           href: 'https://github.com/reignkk1/comfort',
         },
