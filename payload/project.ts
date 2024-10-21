@@ -4,7 +4,7 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Comfort Radio',
+      title: 'Comfort Music',
       startedAt: '2024-07',
       where: '뮤직 플레이어 개발',
       descriptions: [
@@ -70,7 +70,7 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: ' Cheerio 라이브러리 활용한 웹 크롤링 구현',
+          content: ' Cheerio 라이브러리 활용한 웹 크롤링 서버 구현',
         },
         {
           content: '웹 브라우저 저장소 localStorage를 활용한 사용자가 본 게시물은 블러처리 구현',
@@ -88,7 +88,7 @@ const project: IProject.Payload = {
           href: 'https://recruitment-dev.vercel.app/',
         },
         {
-          skills: ['Next.js', 'TypeScript', 'Context API', 'Emotion', 'Cheerio'],
+          skills: ['Next.js', 'TypeScript', 'Context API', 'Emotion', 'Cheerio', 'Axios'],
         },
       ],
     },
