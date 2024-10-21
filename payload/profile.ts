@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faBlog } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 // import { faBell } from '@fortawesome/free-regular-svg-icons';
@@ -24,6 +24,10 @@ const profile: IProfile.Payload = {
       title: '010 - 7714 - 3764',
       icon: faPhone,
       badge: true,
+    },
+    {
+      link: 'https://reignkk1.github.io/',
+      icon: faBlog,
     },
     {
       link: 'https://github.com/reignkk1',

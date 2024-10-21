@@ -13,7 +13,7 @@ const Languages: ISkill.Skill = {
     },
     {
       title: 'HTML/CSS',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Python',
@@ -32,14 +32,6 @@ const FameworksLibraries: ISkill.Skill = {
     {
       title: 'Next.js',
       level: 2,
-    },
-    {
-      title: 'Node.js',
-      level: 1,
-    },
-    {
-      title: 'Express.js',
-      level: 1,
     },
   ],
 };

@@ -20,7 +20,7 @@ const openSource: IOpenSource.Payload = {
           href: 'https://reignkk1.github.io/blog/parser-storages/',
         },
         {
-          content: 'https://github.com/reignkk1/parser-storages',
+          content: '깃허브',
           href: 'https://github.com/reignkk1/parser-storages',
         },
       ],

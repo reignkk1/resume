@@ -9,21 +9,17 @@ const project: IProject.Payload = {
       where: '뮤직 플레이어 개발',
       descriptions: [
         {
-          content: '뮤직 플레이어 재생/일시정지, 음소거, 음량조절 모듈 개발',
-        },
-        {
-          content: '댓글 읽기/쓰기/삭제 개발',
-        },
-        {
           content: '바닐라 자바스크립트로 CSR(Client-Side-Rendering) 구현',
         },
         {
-          content: 'customElements API 활용한 HTML 컴포넌트 개발',
+          content: '바닐라 자바스크립트로 상태관리 모듈 구현',
         },
         {
-          content: 'Node.js 환경에서 간단한 웹 서버 API 개발',
+          content: '뮤직 플레이어 재생/일시정지, 음소거, 음량조절, 랜덤재생, 히스토리 모듈 개발',
         },
-
+        {
+          content: 'customElements API 활용한 HTML 컴포넌트 단위 개발',
+        },
         {
           content: 'Webpack을 활용한 모듈 번들링',
           descriptions: [
@@ -39,7 +35,11 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: 'https://github.com/reignkk1/comfort',
+          content: '바닐라 자바스크립트로 나만의 상태관리 모듈 만들어보기',
+          href: 'https://reignkk1.github.io/blog/state-store/',
+        },
+        {
+          content: '깃허브',
           href: 'https://github.com/reignkk1/comfort',
         },
         {
@@ -47,18 +47,7 @@ const project: IProject.Payload = {
           href: 'https://reignkk1.github.io/comfort/',
         },
         {
-          skills: [
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'Node.js',
-            'Express.js',
-            'Webpack',
-            'Babel',
-            'Style-loader',
-            'CSS-loader',
-            'MySQL',
-          ],
+          skills: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'Babel', 'Style-loader', 'CSS-loader'],
         },
       ],
     },
@@ -87,7 +76,11 @@ const project: IProject.Payload = {
           content: '웹 브라우저 저장소 localStorage를 활용한 사용자가 본 게시물은 블러처리 구현',
         },
         {
-          content: 'https://github.com/reignkk1/recruitment-app',
+          content: '데이터 중심의 UI 설계',
+          href: 'https://reignkk1.github.io/blog/data-driven-ui/',
+        },
+        {
+          content: '깃허브',
           href: 'https://github.com/reignkk1/recruitment-app',
         },
         {
@@ -95,7 +88,7 @@ const project: IProject.Payload = {
           href: 'https://recruitment-dev.vercel.app/',
         },
         {
-          skills: ['Next.js', 'TypeScript', 'Emotion', 'Cheerio'],
+          skills: ['Next.js', 'TypeScript', 'Context API', 'Emotion', 'Cheerio'],
         },
       ],
     },

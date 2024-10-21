@@ -6,7 +6,7 @@ const education: IEducation.Payload = {
   list: [
     {
       title: '한국방송통신대학교',
-      subTitle: '컴퓨터과학과 3학년 재학중',
+      subTitle: '컴퓨터과학과 3학년 2학기 재학중',
       startedAt: '2024-03',
     },
     {
